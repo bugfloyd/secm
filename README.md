@@ -44,3 +44,6 @@ alias vpns='sudo ~/vpnclient/secm.sh status'
 4. Activate alias by typing: `source ~/.bash_aliases` or `exec $SHELL`  
 
 Now you can use `vpnc`, `vpns`, `vpnd` commands to manage the SoftEtherVPN client connection.
+
+## LICENSE
+Code released under the GNU GPL v3 License.
