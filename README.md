@@ -20,7 +20,14 @@ $ cd vpnclient
 3. Allow executable permissions for `secm.sh`  
 `$ chmod +x secm.sh`
 
-4. Start the script and configure NIC and VPN account provideing the required data  
+4. Edit `secm.sh` to override these defaults:
+```
+VPN_CLIENT_HOST="localhost"
+DEFAULT_GATEWAY="192.168.1.1"
+VPN_GATEWAY="192.168.30.1"
+```
+
+5. Start the script and configure NIC and VPN account provideing the required data  
 `$ sudo ./secm.sh start`  
   * This command should be run using root privlidges.  
   * The configuration proccess is only required on the first run.
